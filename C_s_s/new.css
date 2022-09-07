@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+.container{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 8%;
+
+}
+.gallery{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px, 1fr));
+    grid-gap: 30px;
+}
+.gallery img{
+    width: 100%;
+    max-width: 400px;
+    padding: 0;
+}
+.imagee img{
+    margin: 10px;
+    width: 279px;
+    height: 200px;
+    background-color: none;
+    border: 5px solid white;
+    box-shadow: 0 5px 15px rgb(0,0,0, 0.1);
+    justify-content: center;
+    position: relative;
+    padding: 0;
+    
+}
+.imagee img:hover{
+    transform: scale(1.1);
+}
+ 
+ .imagee{
+    white-space: normal;
+  }
+
+  .ug{
+    color: black;
+   text-transform: lowercase;
+
+  }
+  .og{
+    color: black;
+    text-decoration: underline;
+  }
+  h4{
+    font-size: x-large;
+    font-weight: bold;
+    text-decoration: underline;
+  }
+  #rt{
+    text-align: center;
+    color: black;
+    border: 1px solid black;
+    padding: 10px 15px;
+    border-width: thin;
+    justify-content: center;
+    background-color: rgba(178, 224, 235, 0.934);
+    border-radius: 1.5rem;
+    word-spacing: 5px;
+    
+  }
+
+  @import url('https://fonts.googleapis.com/css2?family=Benne&display=swap');
+  .copy{
+    font-family: 'Benne', serif;
+    font-size: large;
+  }
+  #butt{
+    text-align: center;
+    justify-content: center;
+  }
